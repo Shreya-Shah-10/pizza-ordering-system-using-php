@@ -1,0 +1,76 @@
+/* Container Box */
+.container {
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    width: 550px;
+    text-align: center;
+}
+
+/* Heading */
+.login-form h2 {
+    color: #ffc107; /* Yellow color */
+    margin-bottom: 30px;
+}
+
+/* Labels */
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #555;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    border-bottom-color: #ffc107; /* Yellow border on focus */
+}
+
+/* Button */
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffc107; /* Yellow button */
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
