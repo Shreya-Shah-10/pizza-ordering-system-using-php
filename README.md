@@ -1,10 +1,10 @@
 # pizza Ordering system using PHP
 
-How to run this Project
+* How to run this Project
 
 1. Move Project to XAMPP
 - Copy the entire project folder.
-Paste it inside:
+- Paste it inside:
   C:\xampp\htdocs\
    or
   C:\xampp\htdocs\pizza-ordering-system
